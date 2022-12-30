@@ -3,7 +3,7 @@ import Slider from "@vueform/slider";
 import { ref } from "vue";
 import { DateTime } from "luxon";
 
-const val = ref([0, 12, 15, 17, 19, 24]);
+const val = ref([8.5, 12, 13, 18, 19, 22]);
 const format = (value: number) => {
   const beforeDecimal = Math.floor(value);
   const afterDecimal = value - beforeDecimal;
